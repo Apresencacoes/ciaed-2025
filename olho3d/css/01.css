@@ -1,0 +1,281 @@
+html,body {
+    /* background: url('../images/01/bg-esq-dir.png') left center no-repeat, url('../images/01/bg-esq-dir.png') right center no-repeat; */
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    /* background-size: 47%, 47%; */
+}
+.conteudo1{
+    background-image: url('../images/01/bg.jpg');
+}
+.conteudo2{
+    background-image: url('../images/02/bg.jpg');
+}
+.conteudo45{
+    background-image: url('../images/04_05/bg_pdf.png');
+    background-size: auto;
+    background-repeat: repeat;
+}
+.booklet{
+
+}
+figcaption {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+h2,
+h3,
+h4,
+h5 {
+    color: #1E8BB0;
+}
+
+.btn-simulador {
+    background-color: #3b90b5;
+    color: #fff !important;
+    font-size: 18px;
+    padding: 15px 30px;
+    box-shadow: -4px 4px  #12eddc;
+    margin: 40px auto;
+    display: block;
+    max-width: 450px;
+}
+a {
+    text-decoration: none !important;
+}
+
+a:hover{text-decoration: none;}
+
+.conteudo45 h4{
+    background-color: #28aaad;
+  color: #fff;
+  padding: 10px;
+}
+.imagemFloatR{
+    float: right;
+    padding: 20px 30px;
+}
+
+.separador1 {
+    width: 70%;
+    height: 70%;
+    padding: 2px 0px 2px 0px;
+    gap: 10px;
+    background: #F5CA2E;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.espera {    max-width: 100%;
+    width: 750px;
+    height: 451px;
+    top: 835px;
+    left: 345px;
+    border-radius: 8px;
+    border: 1px;
+    margin: auto;
+    background: linear-gradient(0deg, #DFDFDF, #DFDFDF),
+    linear-gradient(0deg, #E4E4E4, #E4E4E4);
+    border: 1px solid #DFDFDF
+}
+
+.voltar {
+    width: 174px;
+    height: 39px;
+    padding: 10px;
+    border-radius: 4px;
+    gap: 10px;
+    font-weight: bold;
+    color: #000 !important;
+    background: #F5CA2E;
+    border: 1px solid #F5CA2E;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.btn-final {
+    text-align: center;
+}
+
+.btMiopia,
+.btHipermetropia,
+.btAstigmatismo,
+.btPresbiopia{
+    width: 241px;
+    height: 90px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.btMiopia{ background-image: url('../images/03/bt-miopia.png');}
+.btHipermetropia{ background-image: url('../images/03/bt-hipermetropia.png');}
+.btAstigmatismo{ background-image: url('../images/03/bt-astigmatismo.png');}
+.btPresbiopia{ background-image: url('../images/03/bt-presbiopia.png');}
+
+.btMiopia:hover{ background-image: url('../images/03/bt-miopia_hv.png');}
+.btHipermetropia:hover{ background-image: url('../images/03/bt-hipermetropia_hv.png');}
+.btAstigmatismo:hover{ background-image: url('../images/03/bt-astigmatismo_hv.png');}
+.btPresbiopia:hover{ background-image: url('../images/03/bt-presbiopia_hv.png');}
+
+.boxbtnPop{
+    position: relative; width: 630px; margin: 0 auto;
+}
+.btnPopDefault{
+    position: absolute;
+    right: 0;
+    color: transparent;
+    border: none;
+    background-color: transparent;
+    transition: all 0.3 ease-in;
+    color: #29afb2;
+    border: 1px solid #29afb2;
+    background-color: #fff;
+    outline: none !important;
+
+}
+.btnPopDefault:hover,
+.btnPopDefault:focus{
+    color: #fff;
+    background-color: #29afb2;
+    font-weight: bold;
+    border-color: #29afb2 !important;
+}
+.btnPopOlho1{
+    top: 33px;
+    width: 156px;
+  right: 22px;
+  height: 47px;
+}
+.btnPopOlho2{
+    top: 91px;
+    width: 156px;
+    right: 22px;
+    height: 67px;
+}
+.btnPopOlho3{
+    top: 214px;
+    width: 156px;
+  right: 22px;
+  height: 47px;
+}
+.btnPopOlho4{
+    top: 392px;
+    width: 156px;
+    right: 22px;
+    height: 72px;
+}
+.btnPopOlho5{
+    top: 476px;
+    width: 156px;
+  right: 22px;
+  height: 47px;
+    
+}
+.btnPopOlho6{
+    top: 30px;
+    width: 153px;
+    left: 177px;
+    height: 39px;
+    font-size: 20px;
+    padding-top: 6px;
+}
+.btnPopOlho7{
+    top: 322px;
+    width: 146px;
+    left: 242px;
+    height: 40px;
+    font-size: 20px;
+    padding-top: 6px;
+}
+.btnPopOlho8{
+    top: 170px;
+    width: 135px;
+    left: 446px;
+    height: 40px;
+    font-size: 19px;
+    padding-top: 6px;
+}
+.btnPopOlho9{
+    top: 171px;
+    width: 152px;
+    left: 24px;
+    height: 39px;
+    font-size: 20px;
+    padding-top: 6px;
+}
+.btnPopOlho10{
+    top: 81px;
+    width: 180px;
+    left: 406px;
+    height: 40px;
+    font-size: 19px;
+    padding-top: 6px;
+}
+.btnPopOlho11{
+    top: 259px;
+    width: 180px;
+    left: 13px;
+    height: 39px;
+    font-size: 20px;
+    padding-top: 6px;
+}
+.popMobile,.popMobile2{
+    display: none;
+}
+
+.moldura img{
+    filter: drop-shadow(#333 1px 3px 3px);
+}
+.moldura figcaption, .legenda{
+    font-size: 12px;
+}
+h4.seloPresencialidade{position: relative;}
+    h4.seloPresencialidade::before {
+        right: 0;
+        margin-right: -50px;
+        margin-top: -50px;
+        width: 110px;
+        z-index: 1;
+        height: 110px;
+    }
+
+
+.selocentral:before{
+    margin-left: 0 !important;
+}
+@media (max-width: 1200px) {
+    .btnPopOlho1{
+        top: 35px;
+    }
+    .btnPopOlho4{
+        top: 389px;
+    }
+    .btnPopOlho5{
+        top: 469px;
+    }
+}
+@media (max-width: 991px) {
+    .btnPopOlho1, .btnPopOlho2, .btnPopOlho3, .btnPopOlho4, .btnPopOlho5{
+        display: none;
+    }
+    .popMobile{
+        display: block;
+    }
+    .hideMob{
+        display: none;
+    }
+}
+@media (max-width: 720px) {
+    .textBtnPop, .btnPopOlho6, .btnPopOlho7, .btnPopOlho8, .btnPopOlho9, .btnPopOlho10, .btnPopOlho11{
+        display: none;
+    }
+    .popMobile2{
+        display: block;
+    }
+    .boxbtnPop{width: 100%;}
+}
